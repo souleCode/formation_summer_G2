@@ -1,0 +1,118 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ADMISSION </title>
+        <link rel="stylesheet" href="../../css/style.css">
+    </head>
+    <body>
+        
+       <header>
+          <h1>ECOLE SUPERIEURE DES AFFAIRES</h1>
+          <img src="../../image/LOGO ESA.webp"   alt="logo de l'école">
+          <nav>
+             <ul>
+               <li><a href="../html/index.html">Accueil</a></li>
+               <li><a href="../html/Academie.html">Academique</a></li>
+               <li><a href="../html/Admission.html">Admission</a></li>
+               <li><a href="../html/galerie.html">Galerie</a></li>
+             </ul>
+            
+             
+          </nav>
+        </header>
+        <hr>
+
+
+  <main>      
+
+        <h2>Formulaire d'Admission</h2>
+
+    <form action="post">
+         <fieldset>
+          <legend>
+               <strong>INFORMATIONS PERSONNELLE</strong>
+          </legend>
+            <label for="name">NOM & PRENOM</label>
+           <input type="text" name="" placeholder="veuillez saisir votre nom et prénom" id="name"  width="30px" required> <br>
+          <br>
+            <label for="age">AGE </label>
+           <input type="date" name="votre age"  id="age" maxdate="2008" mindate="2002" required> <br>
+          <br>
+           <label for="tel"> TEL</label>
+           <input type="tel" name=" votre contact" placeholder="votre contact" id="tel "> <br>
+           <br>
+          <label for="mail">ADRESSE E-MAIL </label>
+          <input type="email" name=" votre email"  placeholder="votre email" id=" mail" required> <br>
+           <br>
+          <label for="origine"> votre nationalité</label>
+          <input type="text" name="" id="">
+          <br>
+
+           <label for="sex"> GENRE</label>
+
+            <select name="" id="">
+                <option value="man">H</option>
+                <option value="woman">F</option>
+                <option value="other"> Autre</option>
+           </select>
+             <!--
+              <div> 
+                <input type="checkbox" name="" id="">
+               <label for="man">Homme</label>
+         
+              <input type="checkbox" name="" id="">
+             <label for="woman">Femme</label>
+            </div>
+              -->
+        </fieldset>
+            <br>
+         <fieldset>
+            <legend><strong>DOSSIER D'ADMISSION</strong></legend>
+             <label for="level"> Niveau d'étude</label>
+               <!--<input type="text" name="level" placeholder="minimum le bac" id=" level"> -->
+           <select name=""class="form-select" id="">
+                <option value="BACCALAURIAT">BAC</option>
+                <option value="LICENCE">BAC+3</option>
+                <option value="BTS">BAC+2</option> 
+           </select> <br><br>
+            <label for="study"> Veuillez choisir la formation que vous souhaitez suivre</label>
+           <select name="choice" id="choice">
+              <option value="bts">BREVET DE TECHNICIEN SUPERIEUR</option>
+              <option value="L PRO"> LICENCE PROFESSIONNELLE</option>
+              <option value="M PRO">MASTER PROFESSIONNEL</option>
+
+           </select>
+             <br><br>
+            <label for="motivate">vos motivations</label>
+             <textarea name="motivate" placeholder=" saisissez ici............." id="" required></textarea><br><br>
+
+             <label for="document"> vos diplômes</label>
+             <input type="file" name="" id=""  required><br><br>
+
+         </fieldset>
+         <fieldset>
+              <legend> <strong>  VALIDATION</strong></legend>
+              <label for="password">Mot de passe</label>
+              <input type="password" placeholder="votre mot de passe" name="" id="" maxlength="12" minlength="8" required>
+         </fieldset>  
+  
+          <input type="submit" name="Envoyer" id="Envoyer" value="soumettre">
+
+
+      </form>
+
+   </main>
+
+<footer>
+   <p>&copyright:2024 BY «« ====>>>»»  DJANGBEDJA YETCHABLE JUSTIN LENZO (DJAYEJULE)
+       <img src="../../image/justin.jpg" alt="">
+   </p>
+   <a href="Admission.html"> vers le haut</a>
+</footer>
+
+
+</body>
+</html>

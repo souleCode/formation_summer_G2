@@ -1,0 +1,36 @@
+
+
+body{
+    background-color: azure;
+    background-image: url('image2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position: left center; cette ligne ne servira pas si on a bckg-size=cover */
+    
+
+}
+
+
+.text-change {
+    color: red;
+    font-size:25px;
+    font-family: "Playwrite Argentina", "Arial";
+    font-weight:bold;
+    font-style: italic;
+
+}
+
+#text-right{
+    text-decoration: underline;
+    text-align: center;
+    color: green;
+}
+
+.lien1{
+    text-decoration:none;
+    color: purple;
+    font-weight:bold;
+}
+
+

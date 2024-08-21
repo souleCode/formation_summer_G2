@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+    <link rel="stylesheet" href="../../Projet2/css/style.css">
+</head>
+<body>
+    <body>
+        <div class="titre">
+            <img src="../../Projet2/images/logo-ecole.jpeg" alt="" width="200px" height="100px" class="img">
+            <div class="ecole"><h3>INSTITUT DES HAUTES ETUDES UNIVERSELLES (IHEU)</h3></div>
+            <div class="onglet">
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="academie.html">Academique</a></li>
+                <li><a href="admission.html">Admission</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+            </div>
+        </div>
+    <form action="" class="formulaire">
+        <h2 class="T1">Formulaire d'amission à l'ecole d'excellence (IHEU)</h2>
+        <h4 class="b">Veuillez remplir ce formulaire pour deposer votre candidature au sein de notre école.</h4>
+        <fieldset>
+            <legend><h3>Informations de l'élève</h3></legend>
+            <label for="name">Nom de famille</label><br>
+            <input type="text" id="name"><br><br>
+            <label for="prenom">Prenom</label><br>
+            <input type="text" id="prenom"><br><br>
+            <label for="annee">Année de naissance</label><br>
+            <input type="date" id="annee"><br><br>
+            <label for="contact">Contact</label><br>
+            <input type="text" id="contact"><br><br>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email"><br><br>
+            <label for="sexe">Sexe</label><br>
+            <select  id="sexe">
+                <option value="">Homme</option>
+                <option value="">Femme</option>
+            </select><br><br>
+            <label for="cycle">Parcours universitaire</label><br>
+            <select  id="cycle">
+                <option value="">Informatique et technologie</option>
+                <option value="">Ingéniérie</option>
+                <option value="">Médecine et sciences de la santé</option>
+                <option value="">Sciences économiques et gestion</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Informations du parent</h3></legend>
+            <label for="name">Nom</label><br>
+            <input type="text" id="name"><br><br>
+            <label for="prenom">Prenom</label><br>
+            <input type="text" id="prenom"><br><br>
+            <label for="date">Date de naissance</label><br>
+            <input type="date" id="date"><br><br>
+            <label for="contact">Contact</label><br>
+            <input type="text" id="contact"><br><br>
+            <label for="sexe">Sexe</label><br>
+            <select  id="sexe">
+                <option value="">Homme</option>
+                <option value="">Femme</option>
+            </select><br><br>
+            <label for="relation">Relation avec l'élève</label><br>
+            <select id="relation">
+                <option value="">Père</option>
+                <option value="">Mère</option>
+                <option value="">Tuteur/Tutrice</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Soumettre la demande" class="Soumettre">
+    </form>
+</body>
+</html>

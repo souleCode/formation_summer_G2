@@ -1,0 +1,14 @@
+.green {
+    background:green;
+    height:100px;
+    width:100px;
+}
+.black {
+    background:black;
+    height:100px;
+    width:100px;
+}
+div {
+    display: inline-block;
+    height: 100px;
+}

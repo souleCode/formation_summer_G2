@@ -1,0 +1,42 @@
+
+body{ background-color:azure; margin:10px;}
+.titre{
+    background-color: #ec0fb5; display: flex; flex-direction: row; height: 180px; border-radius: 35px; margin: 5px;
+} .img{position:absolute; top:5px; left:50%; right: 50%; } 
+.ecole{ font-size: 20px; color: white; position:absolute; top: 100px; left:30%;}
+.onglet{
+    font-size: 20px; display: flex; flex-direction: column; justify-content: space-between 40px; list-style: none; text-decoration: none; position: absolute; left:50px; top:50px;}
+a:hover{ border: solid white; font-size: 20px;text-decoration: none;}
+.T1{ font-size: 20px; background-color: #ec0fb5; color: white; border-radius: 35px; text-align: center; }
+.T2{ font-size: 20px;} .T3{ margin:30px;}
+.classe{margin-left: 30px; border: solid  #ec0fb5; margin-right: 30px; width: 620px; height: 525px;}
+.classe1{ display: flex; flex-direction: row;} .classe2{ display: flex; flex-direction: row;}
+.info{ width: 300px; height: 250px; margin-right: 20px; margin-bottom: 20px;}
+.ingeniereie{ width: 300px; height: 250px; margin-bottom: 20px;}
+.medecine{width: 300px; height: 250px; margin-right: 20px;}
+.gestion{ width: 300px; height: 250px;}
+
+/* Page d'admission */
+.formulaire{
+    font-size: 20px; font-weight: bold; margin:30px;
+}
+ .b{ text-align: center;}
+.Soumettre{
+    font-size: 20px; border: solid #ec0fb5; border-radius: 35px; background-color: #ec0fb5; color: white; margin-top: 10px;
+}
+#cycle{ font-weight: bold;}
+
+/* Page academique */
+.form{ margin:30px;}
+li{font-size: 20px; text-decoration: none;}
+.cours{ background-color: #ec0fb5; color: white; text-decoration: none; border-radius: 35px;}
+.cours:hover{ border: solid black;}
+
+/* Cours */
+.civil{ float: left; margin-right: 20px; margin-bottom: 20px;}
+.text{ display: flex; flex-direction: column;}
+.livre{font-size: 20px; border: solid #ec0fb5; border-radius: 35px; background-color: #ec0fb5; color: white; margin-top: 10px;}
+
+/* Calendrier */
+th{ background-color: #ec0fb5; color: white; font-size: 20px; font-weight: bold;}
+td{font-weight: bold;}

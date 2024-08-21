@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de paiement</title>
+</head>
+
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend>informations personnelles:</legend>
+
+            <label for="name">Votre nom de famille:</label>
+            <input type="text" placeholder="Tapez votre nom de famille ici...!" required>
+            <br>
+            <label for="lastname">Votre prenom:</label>
+            <input type="text" placeholder="Votre prenom ici...!" minlength="2" maxlength="20">
+            <br>
+            <label for="mail">Votre Adresse e-mail:</label>
+            <input type="email" placeholder="Votre email">
+            <br>
+            <label for="age"> Votre age:</label>
+            <input type="integer" placeholder="Votre age">
+            <br>
+            <input type="checkbox" id="man">
+            <label for="man">Homme</label>
+            <br>
+            <input type="checkbox" id="woman">
+            <label for="woman">Femme</label>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Vos competences</legend>
+
+            <textarea placeholder="Tapez vos competences ici...!"></textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Validation</legend>
+            <label for="pwd">Votre mot de passe</label>
+            <input type="password" placeholder="Votre mot de passe">
+            <br>
+        </fieldset>
+        <input type="submit" value="Envoyer">
+
+    </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+
+
+body{
+    z-index:10
+}
+.div-inline{
+        display:inline;
+}
+.cache{
+    display: none;
+}
+ /* le flex box================> */
+.flexible{
+    /* background: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/* .flexible div {
+    width: 200px;
+    height:200px;
+} */
+
+/*  Partie redimensionnment */
+
+.test{
+    width:100px;
+    height:100px;
+    background: red;
+}
+.art-des{
+    width:500px;
+    height:320px;
+    background: lightblue;
+}
+
+.blue{
+    width:200px;
+    height:200px;
+    /* background: blue;a */
+    /* position: absolute;
+    left: 100px; */
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 200px;
+}
+.red{
+    width:100px;
+    height:100px;
+    background: red;
+}
+.green{
+    width:100px;
+    height:100px;
+    background: green;
+}
+.pink{
+    width:100px;
+    height:100px;
+    background: pink;
+    /* position: absolute;
+    left: 200px; */
+}
+.purple{
+    width:100px;
+    height:100px;
+    background: purple;
+}
+.black{
+    width:100px;
+    height:100px;
+    background: black;
+    position: relative;
+    /* right: -100px;
+    bottom: 100px; */
+}
+.little{
+    width:20px;
+    height:20px;
+    background: green;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+.orange{
+    width:100px;
+    height:100px;
+    background: orange;
+    position: fixed;
+    top:  200px;
+    z-index:10
+}
+
+/* Pour les margins et les paddings */
+
+h3{
+  margin-top:0;
+  margin-bottom:20px;
+  margin-left:20px;
+  margin-right:20px;
+  /* margin: 50px;  met 50px dans les 04côtés*/ 
+}
+
+p {
+    paddigng-bottom:0;
+    paddigng-left:0;
+    paddigng-top:0; 
+    paddigng-right:0;
+
+    /* padding: 0; */
+
+
+}
